@@ -1,0 +1,38 @@
+{
+  "name": "register-grunt-tasks",
+  "description": "Register custom Grunt tasks with ease",
+  "version": "0.0.0",
+  "homepage": "https://github.com/endorama/register-grunt-tasks",
+  "author": {
+    "name": "Edoardo Tenani",
+    "email": "edoardo.tenani@gmail.com",
+    "url": "http://about.me/edoardo.tenani"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/endorama/register-grunt-tasks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/endorama/register-grunt-tasks/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/endorama/register-grunt-tasks/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "release": "node_modules/.bin/release-it"
+  },
+  "dependencies": {
+    "lodash": "*",
+    "glob": "^5.0.14"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
