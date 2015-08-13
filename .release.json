@@ -1,6 +1,6 @@
 {
   "non-interactive": false,
-  "dry-run": true,
+  "dry-run": false,
   "verbose": true,
   "force": false,
   "pkgFiles": [
@@ -10,14 +10,9 @@
   "commitMessage": "Release v%s",
   "tagName": "v%s",
   "tagAnnotation": "Release v%s",
-  "buildCommand": false,
-  "distRepo": false,
-  "distStageDir": ".stage",
-  "distBase": "dist",
-  "distFiles": [
-    "**/*"
-  ],
-  "private": false,
   "publish": true,
-  "publishPath": "."
+  "publishPath": ".",
+  "githubRelease": true,
+  "githubReleaseName": "Release %s",
+  "githubReleaseBodyCommand": "git log --pretty=format:'* %s (%h)' [REV_RANGE]"
 }
