@@ -12,7 +12,7 @@
   "tagAnnotation": "Release v%s",
   "publish": true,
   "publishPath": ".",
-  "githubRelease": true,
+  "githubRelease": false,
   "githubReleaseName": "Release %s",
   "githubReleaseBodyCommand": "git log --pretty=format:'* %s (%h)' [REV_RANGE]"
 }
