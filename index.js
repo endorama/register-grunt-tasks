@@ -52,8 +52,6 @@ module.exports = function (grunt, options) {
       var fn = require(filePath);
       // verify is a funciton
       if (_.isFunction(fn)) {
-        // bind to fn grunt ( as this ) and pass it as first argument
-        fn = fn.bind(grunt, grunt);
         // register the task with the correct filename
         grunt.registerTask(taskName, fn);
         // grunt.verbose.debug('OK'.green);
